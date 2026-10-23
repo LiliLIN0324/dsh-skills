@@ -1,0 +1,22 @@
+﻿# 通用游戏系统与发布 
+- **ai-behavior-trees-utility-ai** — Build a production behavior-tree runtime (Blackboard, action/condition leaves, sequence/selector/parallel composites, decorators) and a Utility AI sys… （`game/systems/ai-behavior-trees-utility-ai/`）
+- **audio-design** — Implement game audio practice — bus/mixer architecture and gain in decibels, ducking (sidechain), adaptive/dynamic music via layering and re-sequencin… （`game/systems/audio-design/`）
+- **camera-systems** — Build game cameras that feel good — 2D follow with a deadzone, look-ahead, smoothing, and level-bounds clamping; 3D third-person orbit with collision … （`game/systems/camera-systems/`）
+- **create-game-assets** — Plan, generate, source, normalize, and validate cohesive visual game assets. （`game/systems/create-game-assets/`）
+- **dialogue-systems** — Build branching dialogue and narrative — a node/choice graph with conditions, variables, and localization hooks — and choose between authoring tools I… （`game/systems/dialogue-systems/`）
+- **game-ai** — Design NPC and enemy decision-making with finite state machines, behavior trees, steering behaviors, and A* pathfinding — engine-neutral algorithms th… （`game/systems/game-ai/`）
+- **game-feel** — Add "juice" and game feel that makes actions satisfying — screen shake, hit-stop/freeze frames, tweened/eased motion, squash & stretch, knockback, and… （`game/systems/game-feel/`）
+- **game-jam** — Plan and ship a game under a jam deadline: lock scope to the clock, schedule the hours, cut features, and submit on time. （`game/systems/game-jam/`）
+- **game-ui-ux** — Design and build game UI/UX — HUDs, menus, and overlays — that survive every screen: anchor- based responsive layout, resolution/aspect scaling and sa… （`game/systems/game-ui-ux/`）
+- **input-systems** — Architect game input — action mapping (abstracting keys into named actions), rebinding with conflict detection and persistence, multi-device support (… （`game/systems/input-systems/`）
+- **itch-publish** — Publish and update a game on itch.io: create the project page and upload builds with the butler CLI (butler push) to named channels. （`game/systems/itch-publish/`）
+- **level-design** — Design and build playable levels — the blockout/whitebox-to-playable workflow, player metrics and grid layout, pacing and flow (tension/rest curve), g… （`game/systems/level-design/`）
+- **performance-optimization** — Find and fix game performance problems methodically — measure with the engine profiler first, reason about the frame-time budget, locate the CPU-vs-GP… （`game/systems/performance-optimization/`）
+- **physics-tuning** — Tune game physics for stable, good-feeling motion — fixed vs variable timestep, render interpolation, mass/gravity/drag, continuous collision detectio… （`game/systems/physics-tuning/`）
+- **procedural-gen** — Generate game content procedurally — seeded deterministic RNG, value/Perlin/ Simplex noise for terrain and heightmaps, grid dungeon generation (rooms … （`game/systems/procedural-gen/`）
+- **prototype-fast** — Build a playable prototype in about an hour to answer one question — is it fun? — with greybox primitives, a hard timebox, and explicit keep/kill crit… （`game/systems/prototype-fast/`）
+- **router** — Routes any game-development request to the right specialized skill(s): it detects the engine (Godot, Unity, Unreal, Bevy, Phaser, PixiJS, three.js, LÖ… （`game/systems/router/`）
+- **save-systems** — Design save/load for game state — choosing what to serialize, file formats, save slots, atomic crash-safe writes, schema versioning and migration, and… （`game/systems/save-systems/`）
+- **shader-programming** — Write game shaders from cross-engine fundamentals — the vertex→fragment pipeline, coordinate spaces, UV math, and common 2D/3D effects (tint, UV scrol… （`game/systems/shader-programming/`）
+- **steam-publish** — Publish or update a game on Steam with Steamworks and SteamPipe: configure depots and packages, upload builds with steamcmd, set a build live on a bra… （`game/systems/steam-publish/`）
+
