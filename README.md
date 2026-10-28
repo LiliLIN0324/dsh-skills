@@ -1,6 +1,6 @@
 ﻿# DSH / Agent Skills 汇总库
 
-林丽丽本机（DeepSeek Harness）可用的 **94 个 Agent Skill**，按用途分类整理。每个 skill 是一个目录，核心是带 YAML frontmatter 的 `SKILL.md`（name + description + 使用说明），部分还带 `references/`、`scripts/`。
+林丽丽本机（DeepSeek Harness）可用的 **95 个 Agent Skill**，按用途分类整理。每个 skill 是一个目录，核心是带 YAML frontmatter 的 `SKILL.md`（name + description + 使用说明），部分还带 `references/`、`scripts/`。
 
 ## 怎么用
 
@@ -24,8 +24,8 @@
 | Web 动效 | 5 | `motion/` |
 | ACE Studio 音乐制作 | 4 | `music/ace-studio/` |
 | 办公文档（Word / Excel / PPT / PDF） | 7 | `office/` |
-| 报告出图管线 | 1 | `reporting/` |
-| **合计** | **94** | |
+| 报告出图管线 | 2 | `reporting/` |
+| **合计** | **95** | |
 
 ## 全部条目
 
@@ -125,6 +125,7 @@
 | `office-render` | 办公文档（Word / Excel / PPT / PDF） | Render requested document images or inspect visual layout with LibreOffice Kit. |
 | `office-xlsx` | 办公文档（Word / Excel / PPT / PDF） | Read, create, edit, and validate Excel workbooks, data, and formulas (.xlsx). |
 | `deck-builder` | 报告出图管线 | 把 Word/PPT/PDF 报告稳定产出一套「同尺寸、同体积、同质感」的图片集 + PPTX。固定画布 54.98×30.92cm(16:9)，一次栅格化，python-pptx 组装，可机器校验。用于 Pivot Studio 个人项目报告（1037 拼拼这类）的批量交付。 |
+| `riffle-biz-deck-jpg` | 报告出图管线 | 生成 16:9 编号 JPG 系列图（商业介绍/作品展示，10–20 张），画幅 4762×2678、`fig/<slug>/NN.jpg`。当用户要做商业介绍图、作品图集、riffle 同款图时调用。 |
 
 ## 来源与许可
 
